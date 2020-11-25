@@ -1,0 +1,4 @@
+[Project]
+CreatedFrom=qml-app.pro
+Manager=KDevQMakeManager
+Name=qml-app
