@@ -15,17 +15,18 @@ Window {
         TextInput {
             id: inText
             width: column.width
-            height: 20
+            height: column.height/2
             text: qsTr("(inserire qui un input testuale numerico)")
-            font.pixelSize: 12
+            font.pixelSize: column.height/4
         }
 
         Text {
             id: outText
             width: column.width
+            height: column.height/2
             text: Module.calcText() // calcText()
             font.bold: true
-            font.pixelSize: 12
+            font.pixelSize: column.height/4
 
         }
     }
